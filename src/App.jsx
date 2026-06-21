@@ -207,6 +207,14 @@ function GraphApp() {
   // Save modified markdown to file
   const handleSave = async () => {
     if (!activeNode) return;
+    
+    // Check if we are running in static hosting environments like github.io or vercel.app
+    if (window.location.hostname.endsWith('github.io') || window.location.hostname.endsWith('vercel.app')) {
+      setToastMessage('⚠️ 정적 호스팅 환경(GitHub/Vercel)에서는 파일 저장 기능이 비활성화됩니다. 로컬에서 실행해 주세요!');
+      setIsEditing(false);
+      return;
+    }
+    
     try {
       const response = await fetch('/api/save-node', {
         method: 'POST',
@@ -224,7 +232,7 @@ function GraphApp() {
       setToastMessage('성공적으로 저장되었습니다!');
     } catch (err) {
       console.error(err);
-      setToastMessage('저장 중 오류가 발생했습니다.');
+      setToastMessage('저장 중 오류가 발생했습니다. 로컬 서버 상태를 확인해 주세요.');
     }
   };
 

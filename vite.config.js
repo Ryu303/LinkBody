@@ -8,9 +8,14 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [
-    react(),
+export default defineConfig(({ command, mode }) => {
+  // ⚠️ 본인의 깃허브 레포지토리 이름을 여기에 입력하세요 (예: 'obsidian-graph-map')
+  const repoName = '평가_위주_플랫폼'; 
+
+  return {
+    base: mode === 'production' ? `/${repoName}/` : '/',
+    plugins: [
+      react(),
     {
       name: 'save-node-api',
       configureServer(server) {
@@ -48,4 +53,5 @@ export default defineConfig({
       }
     }
   ]
+  }
 })
