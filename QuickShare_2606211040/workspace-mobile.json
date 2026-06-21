@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "dfdf2c60e9fa0530",
+    "type": "split",
+    "children": [
+      {
+        "id": "b311b3a90860560c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a729212b6fd15714",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fadadaa3cf6766fc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "31f88cd5a80afbbc",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "파일 탐색기"
+        }
+      },
+      {
+        "id": "68eec2362e5305d1",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "검색"
+        }
+      },
+      {
+        "id": "2102ae0ced1df3c2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "태그"
+        }
+      },
+      {
+        "id": "55008dd0cc3d5d94",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "모든 속성"
+        }
+      },
+      {
+        "id": "aefdbe32c3d56b9b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "북마크"
+        }
+      }
+    ],
+    "currentTab": 0,
+    "pinned": true
+  },
+  "right": {
+    "id": "a3bfa5e89a6f34f5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8a302e4ae1c3decb",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "백링크"
+        }
+      },
+      {
+        "id": "dd5e7312593c95a2",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "나가는 링크"
+        }
+      },
+      {
+        "id": "25fb68141fc90bd8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "개요"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "a729212b6fd15714",
+  "lastOpenFiles": [
+    "발목_과회외(요족/백니와 무릎의 보상.md",
+    "증상/골반_회전_비대칭.md",
+    "증상/골반_측방경사.md",
+    "증상/요방형근_비대칭_긴장.md",
+    "발목_과회외(요족/불안정성.md",
+    "발목_과회외(요족/요방형근과 어깨 불균형.md",
+    "교차 보상/교차_나선선_보상.md",
+    "증상/흉추_회전_가동성_제한.md",
+    "증상/경추_회전_보상패턴.md",
+    "골반 전방경사 패턴.md",
+    "발목_과회외(요족/골반 전방경사 패턴.md",
+    "발목_과회외(요족/불안정성).md",
+    "교차 보상/교차_기능선_보상.md",
+    "증상/견갑골_하방회전.md",
+    "증상/반대쪽_광배근_과긴장.md",
+    "증상/반대쪽_어깨_비대칭.md",
+    "증상/턱관절_교합_변화.md",
+    "증상/경추_상부_회전_보상.md",
+    "증상/발목_과회내(평발).md",
+    "증상/반대쪽_흉곽_회전.md",
+    "교차 보상",
+    "증상/두통_및_신경통.md",
+    "증상/턱관절_기능장애.md",
+    "증상/거북목(전방머리자세).md",
+    "증상/견갑골_하강_및_하방회전.md",
+    "부위/발목.md",
+    "증상/골반_전방경사 패턴.md",
+    "발목_과회외(요족",
+    "증상",
+    "부위",
+    "무제.base",
+    "03. Symptoms",
+    "02. Pathways",
+    "01. Triggers"
+  ]
+}
